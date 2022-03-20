@@ -12,7 +12,7 @@ import Jumbotron from './components/jumbotron/styles';
 
           <Jumbotron.Pane>
              <Jumbotron.Title> {item.title}</Jumbotron.Title>
-             <Jumbotron.SubTitle>{item.subitle}</Jumbotron.SubTitle>
+             <Jumbotron.SubTitle>{item.subTitle}</Jumbotron.SubTitle>
           </Jumbotron.Pane>
 
           <Jumbotron.Pane>
@@ -23,7 +23,6 @@ import Jumbotron from './components/jumbotron/styles';
       ))}
   
     </Jumbotron.Container>
-  
     
   );
 }
