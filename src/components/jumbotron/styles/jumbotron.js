@@ -60,15 +60,14 @@ line-height: normal;
 
 @media (max-width: 600px){
   font-size: 18px;
-
 }
 
 `;
 
-
 export const Image = styled.img`
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
+  
 `;
 
 export const Container = styled.div`
