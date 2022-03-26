@@ -7,6 +7,7 @@ border-bottom: 8px solid #222;
 padding: 50px 5%;
 color: white;
 overflow: hidden;
+
 `
 
 export const Inner = styled.div`
@@ -22,6 +23,7 @@ export const Inner = styled.div`
 
   @media (max-width: 1000px){
       flex-direction: column;
+      margin: 0;
   }
 
 `;
@@ -32,7 +34,7 @@ width: 50%;
 
 
 @media (max-width: 1000px){
-  width: 100px;
+  width: 100%;
   padding: 0 45px;
   text-align: center;
 
@@ -59,7 +61,7 @@ line-height: normal;
 
 
 @media (max-width: 600px){
-  font-size: 18px;
+  font-size: 10px;
 }
 
 `;
