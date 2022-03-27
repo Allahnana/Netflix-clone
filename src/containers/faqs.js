@@ -12,6 +12,8 @@ export  function FaqsContainer (){
                 <Accordion.Header>{item.header}</Accordion.Header>
                 <Accordion.Header>{item.title}</Accordion.Header>
 
+                {/* <Accordion.Header>{item.body}</Accordion.Header> */}
+
             </Accordion.Item>
            
                
