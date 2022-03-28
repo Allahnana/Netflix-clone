@@ -10,9 +10,9 @@ export  function FaqsContainer (){
             {faqsData.map(item => (
                 <Accordion.Item key={item.id}>
                 <Accordion.Header>{item.header}</Accordion.Header>
-                <Accordion.Header>{item.title}</Accordion.Header>
+                {/* <Accordion.Header>{item.title}</Accordion.Header> */}
 
-                {/* <Accordion.Header>{item.body}</Accordion.Header> */}
+                <Accordion.Body>{item.body}</Accordion.Body>
 
             </Accordion.Item>
            
