@@ -11,8 +11,8 @@ transition: max-height 0.25s cubic-besizer(0.5, 0, 0.1, 1);
 font-size: 26px;
 font-weight: normal;
 line-height: normal;
-background: #3030303;
-padding: 0.8em 1.2em;
+background: #303030;
+padding: 0.8em 1.2em 0.8em 2.2em; 
 white-space: pre-wrap;
 user-select: none;
 
@@ -40,6 +40,7 @@ max-width: 815px;
 export const Item = styled.div`
 color: white;
 margin-bottom: 10px;
+max-width: 670px;
 
 
 
