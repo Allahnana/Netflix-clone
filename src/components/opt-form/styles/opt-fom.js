@@ -44,7 +44,7 @@ export const Button = styled.button`
       color: white;
       text-transform: uppercase;
       padding: 0 32px;
-      border: 0;
+      border: 0 20px;
       cursor: pointer;
 
       &:hover {
