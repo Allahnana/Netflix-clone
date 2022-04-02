@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Input, Button, Text, Break } from "./styles/opt-fom";
 
 export default function OptForm({children, ...restProps}) {
 return <Container{...restProps}>{children}</Container>;
@@ -24,3 +25,7 @@ OptForm.Text =function OptFormText ({children, ...restProps}) {
         </Text>
     );
 };
+
+OptForm.Break = function OptFormBreak ({...restProps}) {
+    <Break {...restProps}/>
+}
