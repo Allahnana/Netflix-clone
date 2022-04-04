@@ -39,11 +39,12 @@ export const Text = styled.p`
 export const Button = styled.button`
       display: flex;
       align-items: center;
-      height: 70%;
+      height: 100%;
       background: #e50914;
       color: white;
       text-transform: uppercase;
-      padding: 0 32px;
+      padding: 21px 33px;
+      margin-left: 3px;
       border: 0 20px;
       cursor: pointer;
 
@@ -56,6 +57,7 @@ export const Button = styled.button`
         font-size: 16px;
         margin-top: 20px;
         font-weight: bold;
+         margin: 21px 32px;
     }
 
 
