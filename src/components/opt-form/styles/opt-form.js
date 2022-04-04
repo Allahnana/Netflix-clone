@@ -15,11 +15,14 @@ export const Container = styled.div`
 
 export const Input = styled.input`
      max-width: 450px;
-     width: 100%;
+     width: 120%;
      border: 0;
      padding: 10px;
      height: 70px;
      box-sizing: border-box;
+
+
+
 `;
 
 export const Text = styled.p`
@@ -28,7 +31,7 @@ export const Text = styled.p`
       text-align: center;
 
 
-      @media (max-width: 600px) {
+      @media (max-width: 1000px) {
         line-height: 22px;
         font-size: 16px;
        
@@ -52,16 +55,6 @@ export const Button = styled.button`
           background: #f40612;
     }
 
-      @media (max-width: 1000px) {
-        height: 50px;
-        font-size: 16px;
-        margin-top: 20px;
-        font-weight: bold;
-         margin: 21px 32px;
-    }
-
-
-
       img {
           margin-left: 10px;
           filter: brightness(0) invert(1);
@@ -69,7 +62,16 @@ export const Button = styled.button`
     }
 
       @media (max-width: 1000px) {
-         width: 16px;
+        //  width: 16px;
+    }
+
+    @media (max-width: 1000px) {
+      height: 50px;
+      font-size: 16px;
+      margin-top: 8px;
+      font-weight: bold;
+      padding: 30px 30px;
+       
     }
 `; 
 
