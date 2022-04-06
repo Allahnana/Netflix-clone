@@ -53,6 +53,8 @@ export const Button = styled.button`
 
       &:hover {
           background: #f40612;
+          // background: #f40641;
+
     }
 
       img {
