@@ -12,7 +12,7 @@ import * as ROUTES from './constants/routes';
 
    
    <Router>
-      <h1> This white screen error na waa ooo</h1>
+      <h1> It Friday and yet I haven't fix my white screen error.</h1>
 
       <Route exact path = {ROUTES.HOME}>
          <JumbotronContainer/>
