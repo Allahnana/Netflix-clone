@@ -1,8 +1,7 @@
+//, 
 import React from 'react';
-import {BrowserRouter as Router,  Route, Switch} from 'react-router-dom';
-import { FaqsContainer } from './containers/faqs';
-import { FooterContainer } from './containers/footer';
-import { JumbotronContainer } from './containers/jumbotron';
+import {BrowserRouter as Router, Routes, Switch,   Route} from 'react-router-dom';
+import { Home, Browse, Signin, Signup } from './pages';
 import * as ROUTES from './constants/routes';
 
 
@@ -12,15 +11,23 @@ import * as ROUTES from './constants/routes';
 
    
    <Router>
-      <h1> It Friday and yet I haven't fix my white screen error.</h1>
 
-      <Route exact path = {ROUTES.HOME}>
-         <JumbotronContainer/>
-         <FaqsContainer/>
-         <FooterContainer/>
+      <Route exact path="./browse">
+         <Browse/ >
       </Route>
-     
-     
+    
+      <Route exact path="./signin">
+         <Signin/ >
+      </Route>
+
+      <Route exact path="./signup">
+         <Signup/ >
+      </Route>
+      
+      <Route exact path={ROUTES.HOME}>
+         <Home/ >
+      </Route>
+
    </Router>
   
     
