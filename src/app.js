@@ -28,6 +28,10 @@ import * as ROUTES from './constants/routes';
          <Home/ >
       </Route>
 
+      <Route exact path={ROUTES.HOME}>
+         <Home/ >
+      </Route>
+
    </Router>
   
     
