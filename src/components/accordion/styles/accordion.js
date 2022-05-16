@@ -37,7 +37,7 @@ max-width: 815px;
 export const Item = styled.div`
 color: white;
 margin-bottom: 10px;
-max-width: 670px;
+max-width: 700px;
 
 
 
