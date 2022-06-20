@@ -1,4 +1,4 @@
-//, 
+
 import React from 'react';
 import {BrowserRouter as Router, Routes, Switch,   Route} from 'react-router-dom';
 import { Home, Browse, Signin, Signup } from './pages';
@@ -12,15 +12,15 @@ import * as ROUTES from './constants/routes';
    
    <Router>
 
-      <Route exact path="./browse">
+      <Route exact path="/browse">
          <Browse/ >
       </Route>
     
-      <Route exact path="./signin">
+      <Route exact path="/signin">
          <Signin/ >
       </Route>
 
-      <Route exact path="./signup">
+      <Route exact path="/signup">
          <Signup/ >
       </Route>
       
