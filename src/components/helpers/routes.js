@@ -15,7 +15,7 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest}) {
                 return (
                     <Redirect
                      to={(
-                        pathname: loggedInPath,
+                        
                     )}
 
                     />
