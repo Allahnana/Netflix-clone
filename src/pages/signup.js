@@ -76,6 +76,7 @@ export default function SignUp() {
           </Form.Text>
           <Form.TextSmall>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
           </Form.TextSmall>
         </Form>
       </HeaderContainer>

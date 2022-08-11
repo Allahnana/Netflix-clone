@@ -10,7 +10,7 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest}) {
             if (!user) {
                 return children;
             }
-            
+            \
             if (user) {
                 return (
                     <Redirect
